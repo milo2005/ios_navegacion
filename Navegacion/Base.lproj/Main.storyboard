@@ -48,6 +48,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="KMo-cS-RL5" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="140" y="321"/>
         </scene>
@@ -74,6 +75,9 @@
                                 <rect key="frame" x="544" y="562" width="36" height="30"/>
                                 <animations/>
                                 <state key="normal" title="Atras"/>
+                                <connections>
+                                    <segue destination="KMo-cS-RL5" kind="unwind" unwindAction="goToBack:" id="8me-lt-glK"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>

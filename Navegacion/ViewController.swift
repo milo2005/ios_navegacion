@@ -31,7 +31,13 @@ class ViewController: UIViewController {
         }
         
     }
-
+    
+    
+    @IBAction func goToBack(segue: UIStoryboardSegue){
+            NSLog("Regreso")
+    }
+    
+    
 
 }
 
