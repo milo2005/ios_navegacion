@@ -12,6 +12,7 @@
 		1BF8E1811C0921F700DAA92E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF8E17F1C0921F700DAA92E /* Main.storyboard */; };
 		1BF8E1831C0921F700DAA92E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BF8E1821C0921F700DAA92E /* Assets.xcassets */; };
 		1BF8E1861C0921F700DAA92E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BF8E1841C0921F700DAA92E /* LaunchScreen.storyboard */; };
+		1BF8E18E1C09233300DAA92E /* Pantalla2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF8E18D1C09233300DAA92E /* Pantalla2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1BF8E1821C0921F700DAA92E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BF8E1851C0921F700DAA92E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BF8E1871C0921F700DAA92E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BF8E18D1C09233300DAA92E /* Pantalla2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pantalla2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				1BF8E1821C0921F700DAA92E /* Assets.xcassets */,
 				1BF8E1841C0921F700DAA92E /* LaunchScreen.storyboard */,
 				1BF8E1871C0921F700DAA92E /* Info.plist */,
+				1BF8E18D1C09233300DAA92E /* Pantalla2ViewController.swift */,
 			);
 			path = Navegacion;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				1BF8E17E1C0921F700DAA92E /* ViewController.swift in Sources */,
 				1BF8E17C1C0921F700DAA92E /* AppDelegate.swift in Sources */,
+				1BF8E18E1C09233300DAA92E /* Pantalla2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
