@@ -10,8 +10,13 @@ import UIKit
 
 class Pantalla2ViewController: UIViewController {
 
+    @IBOutlet var label: UILabel!
+    var data:String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        label.text = data;
+        
 
         // Do any additional setup after loading the view.
     }
